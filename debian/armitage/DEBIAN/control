@@ -1,0 +1,13 @@
+Package: armitage
+Version: 20150813-1parrot0
+Architecture: all
+Maintainer: Lorenzo "Palinuro" Faletra <palinuro@frozenbox.org>
+Installed-Size: 8094
+Depends: default-jre, metasploit-framework
+Section: utils
+Priority: extra
+Homepage: http://www.fastandeasyhacking.com/
+Description: Cyber attack management for Metasploit
+ Armitage is a scriptable red team collaboration tool for Metasploit that
+ visualizes targets, recommends exploits, and exposes the advanced post-
+ exploitation features in the framework.

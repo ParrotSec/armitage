@@ -1,0 +1,4 @@
+version=3
+
+opts="uversionmangle=s/^(?:20)?/20/" \
+http://www.fastandeasyhacking.com/download download/armitage(.*)\.(?:tgz|tbz2|txz|tar\.gz|tar\.bz2|tar\.xz)

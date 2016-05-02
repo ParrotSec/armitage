@@ -1,0 +1,9 @@
+debian/helper-script/armitage usr/bin/
+debian/helper-script/teamserver usr/bin/
+armitage usr/share/armitage/
+armitage.jar usr/share/armitage/
+armitage-logo.png usr/share/armitage/
+cortana.jar usr/share/armitage/
+teamserver usr/share/armitage/
+readme.txt usr/share/armitage/
+whatsnew.txt usr/share/armitage/

@@ -5,8 +5,8 @@ Maintainer: Lorenzo "Palinuro" Faletra <palinuro@frozenbox.org>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.6
 Homepage: http://www.fastandeasyhacking.com/
-Vcs-Git: git://git.kali.org/packages/armitage.git
-Vcs-Browser: http://git.kali.org/gitweb/?p=packages/armitage.git;a=summary
+Vcs-Git: git://github.com/parrotsec/armitage.git
+Vcs-Browser: http://github.com/parrotsec/armitage.git
 
 Package: armitage
 Architecture: all

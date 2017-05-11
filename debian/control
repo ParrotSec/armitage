@@ -3,10 +3,10 @@ Section: utils
 Priority: extra
 Maintainer: Lorenzo "Palinuro" Faletra <palinuro@frozenbox.org>
 Build-Depends: debhelper (>= 9)
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 Homepage: http://www.fastandeasyhacking.com/
-Vcs-Git: git://github.com/parrotsec/armitage.git
-Vcs-Browser: http://github.com/parrotsec/armitage.git
+Vcs-Git: git://dev.parrotsec.org/parrot/armitage
+Vcs-Browser: https://dev.parrotsec.org/parrot/armitage
 
 Package: armitage
 Architecture: all

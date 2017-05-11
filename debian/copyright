@@ -33,7 +33,7 @@ License: BSD-3-clause
  SUCH DAMAGE.
 
 Files: debian/*
-Copyright: 2013 Devon Kearns <dookie@kali.org>
+Copyright: 2013 Devon Kearns <dookie@kali.org>, 2016-2017 Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by

@@ -1,3 +1,9 @@
+armitage (20150813-1parrot1) testing; urgency=medium
+
+  * Fix startup script
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Thu, 11 May 2017 11:49:43 +0200
+
 armitage (20150813-1parrot0) testing; urgency=medium
 
   * Update to armitage 150813

@@ -1,0 +1,9 @@
+Description: Fix armitage startup script
+Last-Update: 2017-05-11
+
+--- a/armitage
++++ b/armitage
+@@ -1,2 +1,2 @@
+ #!/bin/sh
+-java -XX:+AggressiveHeap -XX:+UseParallelGC -jar armitage.jar $@
++java -XX:+UseParallelGC -jar armitage.jar $@

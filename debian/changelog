@@ -1,3 +1,10 @@
+armitage (20150813-1parrot2) testing; urgency=medium
+
+  * Fix missing RHOSTS error.
+    + https://github.com/rsmudge/armitage/issues/208
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Wed, 29 Aug 2018 03:53:43 +0200
+
 armitage (20150813-1parrot1) testing; urgency=medium
 
   * Fix startup script

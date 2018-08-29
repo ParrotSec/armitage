@@ -1,2 +1,2 @@
 #!/bin/sh
-java -XX:+UseParallelGC -jar armitage.jar $@
+java -XX:+AggressiveHeap -XX:+UseParallelGC -jar armitage.jar $@

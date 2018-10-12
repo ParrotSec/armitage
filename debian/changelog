@@ -1,3 +1,16 @@
+armitage (20160709+ds1-1parrot1) testing; urgency=medium
+
+  * Import new Kali version.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Sat, 13 Oct 2018 01:36:20 +0200
+
+armitage (20160709+ds1-0kali1) kali-dev; urgency=medium
+
+  * Import new snapshot from Git
+  * Add a patch to fix meterpreter.sl error (see 4968)
+
+ -- Sophie Brun <sophie@freexian.com>  Tue, 11 Sep 2018 11:56:50 +0200
+
 armitage (20150813-1parrot2) testing; urgency=medium
 
   * Fix missing RHOSTS error.

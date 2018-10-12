@@ -1,0 +1,14 @@
+Description: Fix the lanuch script
+ The script failed with "The Parallel GC can not be combined with
+ -XX:ParallelGCThreads=0" because of new openjdk upsdate.
+Author: Sophie Brun <sophie@freexian.com>
+Bug-kali: https://bugs.kali.org/view.php?id=4006
+Last-Update: 2017-05-11
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+--- a/dist/unix/armitage
++++ b/dist/unix/armitage
+@@ -1,2 +1,2 @@
+ #!/bin/sh
+-java -XX:+AggressiveHeap -XX:+UseParallelGC -jar armitage.jar $@
++java -XX:+UseParallelGC -jar armitage.jar $@

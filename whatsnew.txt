@@ -8,8 +8,6 @@ Armitage Changelog
 - Fixed a repaint bug when removing last server button.
 - Sped up rendering of graph view on Windows and MacOS X.
 - Updated YAML parser and other code to become compatible with Kali 2.0
-- Console Queue now sets some options (e.g., TARGET) before it sets others
-  to avoid errors
 
 20 Nov 14 (tested against msf git revision: 55ef5dd484)
 ---------

@@ -1,6 +1,9 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: armitage
 Source: http://www.fastandeasyhacking.com/
+Files-excluded: release/*
+Comment: release directory contains pre-compiled .jar for unix and
+ windows. We don't need these files.
 
 Files: *
 Copyright: 2010-2013 Strategic Cyber LLC
@@ -33,7 +36,7 @@ License: BSD-3-clause
  SUCH DAMAGE.
 
 Files: debian/*
-Copyright: 2013 Devon Kearns <dookie@kali.org>, 2016-2017 Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>
+Copyright: 2013 Devon Kearns <dookie@kali.org>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by

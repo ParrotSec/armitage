@@ -1,12 +1,13 @@
 Source: armitage
 Section: utils
-Priority: extra
-Maintainer: Lorenzo "Palinuro" Faletra <palinuro@frozenbox.org>
-Build-Depends: debhelper (>= 9)
-Standards-Version: 3.9.8
+Priority: optional
+Maintainer: Kali Developers <devel@kali.org>
+Uploaders: Devon Kearns <dookie@kali.org>
+Build-Depends: debhelper (>= 11), ant, javahelper, default-jdk
+Standards-Version: 4.2.1
 Homepage: http://www.fastandeasyhacking.com/
-Vcs-Git: git://dev.parrotsec.org/parrot/armitage
-Vcs-Browser: https://dev.parrotsec.org/parrot/armitage
+Vcs-Git: git://git.kali.org/packages/armitage.git
+Vcs-Browser: http://git.kali.org/gitweb/?p=packages/armitage.git;a=summary
 
 Package: armitage
 Architecture: all
